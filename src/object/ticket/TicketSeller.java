@@ -12,6 +12,7 @@ public class TicketSeller {
     }
 
     // bb
+    // gm-01
     public void sellTo(Audience audience) {
         ticketOffice.plusAmount(
                 audience.buy(
